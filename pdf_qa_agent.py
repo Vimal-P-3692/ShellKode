@@ -81,7 +81,7 @@ def initialize_system(pdf_path: str, chunk_size: int = 1000, chunk_overlap: int 
         retriever = vector_store_manager.get_retriever(search_kwargs={"k": 4})
         qa_agent = PDFQAAgent(
             retriever=retriever,
-            model_name="gemini-2.0-flash",
+            model_name="gemini-2.5-flash",
             temperature=0.0
         )
         print("✅ QA Agent ready!\n")
