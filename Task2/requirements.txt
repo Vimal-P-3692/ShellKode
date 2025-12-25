@@ -1,0 +1,12 @@
+# PDF Processing
+PyPDF2
+
+# Google Gemini API
+google-generativeai
+
+# Scientific Computing and ML
+numpy
+scikit-learn
+
+# Environment variables (optional)
+python-dotenv

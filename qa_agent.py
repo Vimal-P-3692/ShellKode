@@ -15,7 +15,7 @@ class PDFQAAgent:
     def __init__(
         self,
         retriever,
-        model_name: str = "gemini-pro",
+        model_name: str = "gemini-2.0-flash",
         temperature: float = 0.0,
         max_tokens: Optional[int] = None
     ):
@@ -142,7 +142,7 @@ class SimpleQAAgent:
     def __init__(
         self,
         retriever,
-        model_name: str = "gemini-pro",
+        model_name: str = "gemini-2.0-flash",
         temperature: float = 0.0
     ):
         """
